@@ -1,0 +1,44 @@
+.mt-5{
+    margin-top: 7rem !important;
+}
+.mt-6{
+    margin-top: 4rem !important;
+    @media (min-width: 992px) {
+      margin-top: 6rem !important; // Custom value for large screens and above
+    }
+}
+
+.mt-8{
+    margin-top: 8rem !important;
+}
+.w-85 {
+    width: 83% !important;
+  }
+  .w-60{
+    width: 60% !important;
+  }
+  .mb-6{
+    margin-bottom:13rem !important;
+  }
+  .ms-6{
+    margin-left: 6rem;
+  }
+  .mt-7 {
+    margin-top: 10rem !important;
+  
+    @media (min-width: 992px) {
+      margin-top: 12rem !important; // Custom value for large screens and above
+    }
+  }
+  .mt-9 {
+    margin-top: 2rem !important;
+  
+    @media (min-width: 992px) {
+      margin-top: 1.5rem !important; // Custom value for large screens and above
+    }
+  }
+
+  $navbar-padding-y: 0rem;
+  $line-height-base: 1.2;
+$primary:purple;
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

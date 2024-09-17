@@ -1,0 +1,53 @@
+.home {
+  max-height: 300vh;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Add this to ensure the pseudo-element is positioned correctly */
+}
+
+.about {
+  max-height: 315vh;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative; /* Add this to ensure the pseudo-element is positioned correctly */
+}
+
+@media (max-width: 992px) {
+  .about {
+    max-height: 350vh;
+  }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: purple; /* Change to your desired color */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background: rgba(255, 255, 255, 0.5); /* Change button background color */
+  border: none; /* Remove border if needed */
+}
+
+.pic1 {
+  z-index: 2;
+}
+
+.bg-custom-light {
+  background-color: #f5f6f9;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.8;
+}
+
+::placeholder {
+  color: white; /* Change placeholder text color to white */
+  opacity: 1; /* Optional: make sure the opacity is fully opaque */
+}

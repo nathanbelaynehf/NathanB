@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ebook"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Nathan's portfolio"
+	}
+}
